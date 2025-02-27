@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center; /* Centers main horizontally */
+    align-items: center; /* Centers main vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    width: 30%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers list items */
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+}
+
+li {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+li:hover {
+    background-color: #A020F0;
+    color: black;
+}
+
+.content {
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block; /* Makes sure the whole li is clickable */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    color: black;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter;
+}
+
+h3, h2 {
+    font-weight: 700;
+    font-family: Inter;
+}
+
+h3 {
+    color: #A020F0;
+}
+
+p, li, h2 {
+    color: hsl(0, 0%, 100%);
+}
